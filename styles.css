@@ -1,0 +1,182 @@
+/* Загальні стилі */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  a {
+    color: #007bff;
+  }
+  
+  /* Стилі для хедера */
+  header {
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 28px;
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #555;
+    font-size: 16px;
+  }
+  
+  /* Стилі для головної сторінки */
+  main {
+    background-image: url("path/to/main_background.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+  }
+  
+  main h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  main p {
+    text-align: justify;
+    line-height: 1.5;
+  }
+  
+  img {
+    width: 40%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .iframe-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+  }
+  
+  .iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Стилі для картопляних страв */
+  #starchy {
+    background-image: url("path/to/starchy_background.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+  }
+  
+  #starchy h3 {
+    color: #007bff;
+    margin-top: 30px;
+  }
+  
+  #starchy p {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Стилі для супів */
+  #soups {
+    background-image: url("path/to/soups_background.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+  }
+  
+  #soups h3 {
+    color: #dc3545;
+    margin-top: 30px;
+  }
+  
+  #soups p {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  #soups ul {
+    list-style-type: circle;
+  }
+  
+  /* Рамка для тексту */
+  blockquote {
+    background-color: #f5f5f5;
+    border-left: 5px solid #007bff;
+    padding: 10px;
+    margin: 20px 0;
+  }
+  
+  /* Адаптивність */
+  @media screen and (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+    
+    header {
+      padding: 10px;
+    }
+    
+    header h1 {
+      font-size: 24px;
+    }
+    
+    main {
+      padding: 10px;
+    }
+    
+    main h2 {
+      font-size: 22px;
+    }
+    
+    img {
+      width: 100%;
+    }
+    
+    .iframe-container {
+      padding-bottom: 0;
+      padding-top: 56.25%;
+    }
+    
+    #starchy p,
+    #soups p {
+      padding: 5px;
+      font-size: 14px;
+    }
+  }
+  
